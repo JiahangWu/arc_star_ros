@@ -54,9 +54,9 @@ We provide a minimal example to process events from a plain text file. You can u
 
     $ ./arc_star_app_file my_dataset_folder/events.txt
 
-You can also save the event classification into corners as a plain text file (1 event is a corner, 0 otherwise):
+You can also save the event into corners as a plain text file:
 
-    $ ./arc_star_app_file my_dataset_folder/events.txt my_result_folder/classification.txt
+    $ ./arc_star_app_file my_dataset_folder/events.txt my_result_folder/corners.txt
 
 ## ROS implementation
 Navigate to your initialized ROS workspace, clone and compile:
